@@ -1,0 +1,40 @@
+{
+  "name": "gql",
+  "version": "1.0.0",
+  "description": "An alternative solution to a restful api",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha tests/*.test.js -R nyan",
+    "start": "nodemon app.js",
+    "watch": "mocha -R nyan --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emukupa/graphql.git"
+  },
+  "keywords": [
+    "graphql",
+    "server",
+    "api",
+    "serverless"
+  ],
+  "author": "Edward Manda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emukupa/graphql/issues"
+  },
+  "homepage": "https://github.com/emukupa/graphql#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "node-fetch": "^2.1.2",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "mocha": "^5.1.1",
+    "nodemon": "^1.17.4"
+  }
+}
